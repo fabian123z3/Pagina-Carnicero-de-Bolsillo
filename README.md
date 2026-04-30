@@ -1,44 +1,40 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/fabian123z3/Pagina-Carnicero-de-Bolsillo/main/public/vite.svg" width="80" alt="Carnicero de Bolsillo Logo" />
-
-  # Carnicero de Bolsillo
+  # Carnicero de Bolsillo — Página Web
 
   <p align="center">
-    <strong>Tu guía personal de cortes y recetas</strong>
+    Landing page oficial de la aplicación. Moderna, rápida y 100 % responsive.
   </p>
 
   <p>
-    <a href="https://play.google.com/store/apps/details?id=com.carnicerodebolsillo.app&hl=es_CL" target="_blank">
-      <img src="https://img.shields.io/badge/Disponible_en-Google_Play-34A853?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play" />
-    </a>
-    <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-    <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   </p>
 
 </div>
 
 ---
 
-## Sobre el Proyecto
+## Sobre la página
 
-**Carnicero de Bolsillo** es la landing page oficial de la aplicación móvil que transforma a cualquier persona en un experto en carnes. Con más de **21 cortes de vacuno chilenos**, recetas paso a paso, un chat con inteligencia artificial y juegos educativos, esta app es la compañera ideal para parrilleros, cocineros y amantes de la buena carne.
+Esta es la landing page de **Carnicero de Bolsillo**, la app que lleva el conocimiento del carnicero a tu bolsillo. La página fue diseñada para ser una experiencia visual atractiva que refleje fielmente la identidad de la aplicación: colores cálidos, interfaz limpia y contenido centrado en los amantes de la carne.
 
-Esta página web fue construida con un diseño moderno, responsivo y alineado a la identidad visual de la app: colores cálidos, tipografía limpia y una experiencia de usuario fluida en cualquier dispositivo.
+A través de esta página los usuarios pueden conocer todas las funcionalidades que ofrece la app antes de descargarla.
 
 ---
 
-## Características Principales
+## Lo que muestra la página
 
-- **Catálogo de Cortes** — Explora más de 21 cortes de vacuno con descripciones, usos y técnicas.
-- **Recetas Guiadas** — Prepara platos tradicionales chilenos paso a paso.
-- **Diagrama Interactivo** — Visualiza cada corte en el diagrama de la vaca.
-- **Chat IA (Carnicero IA)** — Resuelve tus dudas sobre cortes, cocción y porciones con inteligencia artificial.
-- **Juegos Educativos** — Quiz Maestro, Memoria Express, Corta Carne y Rompecabezas.
-- **Gamificación** — Sistema de XP, logros y rachas de aprendizaje.
-- **Mitos y Realidades** — Descubre la verdad detrás de las creencias más comunes sobre la carne.
+- **Hero con mockup animado** — Vista previa interactiva de la app con transiciones automáticas entre las pantallas principales.
+- **Características clave** — Catálogo de cortes, recetas guiadas, diagrama interactivo, Chat IA, juegos educativos y más.
+- **Cortes populares** — Tarjetas con los cortes más buscados y sus categorías.
+- **Juegos educativos** — Presentación de los 4 minijuegos: Quiz Maestro, Memoria Express, Corta Carne y Rompecabezas.
+- **Demo del Chat IA** — Simulación animada de una conversación con el Carnicero IA.
+- **Mitos y Realidades** — Sección informativa que desmiente creencias comunes sobre la carne.
+- **Gamificación** — Logros, sistema de XP y rachas de aprendizaje.
+- **Contacto y apoyo** — Canal directo para enviar recetas, sugerencias o donar un café.
 
 ---
 
@@ -46,73 +42,50 @@ Esta página web fue construida con un diseño moderno, responsivo y alineado a 
 
 | Tecnología | Uso |
 |------------|-----|
-| **React 19** | Biblioteca UI |
-| **TypeScript** | Tipado estático |
-| **Vite** | Bundler y dev server |
-| **Tailwind CSS** | Estilos utilitarios |
-| **shadcn/ui** | Componentes base (Button, Card, Badge) |
-| **Lucide React** | Iconografía moderna y consistente |
+| **React** | Biblioteca para construir la interfaz |
+| **TypeScript** | Tipado estático para código más seguro |
+| **Vite** | Entorno de desarrollo rápido y build optimizado |
+| **Tailwind CSS** | Estilos utilitarios para un diseño consistente y responsive |
+| **shadcn/ui** | Componentes base reutilizables (Button, Card, Badge) |
+| **Lucide React** | Iconografía moderna y ligera, sin emojis |
 
 ---
 
-## Requisitos
+## Estructura del proyecto
 
-- [Node.js](https://nodejs.org/) >= 18
-- npm >= 9
-
----
-
-## Instalación y Uso
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/fabian123z3/Pagina-Carnicero-de-Bolsillo.git
-
-# Ingresar al directorio
-cd Pagina-Carnicero-de-Bolsillo
-
-# Instalar dependencias
-npm install
-
-# Iniciar servidor de desarrollo
-npm run dev
-
-# Construir para producción
-npm run build
-
-# Previsualizar build
-npm run preview
+```
+src/
+  components/ui/   # Componentes shadcn/ui (Button, Card, Badge)
+  lib/utils.ts     # Utilidades (cn para clases condicionales)
+  pages/
+    CarniceroDeBolsillo.tsx   # Página principal (única ruta)
+  App.tsx          # Punto de entrada
+  index.css        # Estilos globales y Tailwind
 ```
 
 ---
 
-## Scripts Disponibles
+## Scripts disponibles
 
 | Script | Descripción |
 |--------|-------------|
 | `npm run dev` | Inicia el servidor de desarrollo |
-| `npm run build` | Compila TypeScript y genera build de producción |
+| `npm run build` | Compila la aplicación para producción |
 | `npm run preview` | Previsualiza el build generado |
-| `npm run lint` | Ejecuta ESLint para revisar código |
+| `npm run lint` | Revisa el código con ESLint |
 
 ---
 
-## Descarga la App
+## Paleta de colores
 
-La aplicación está disponible gratuitamente en Google Play:
+La página utiliza los mismos colores de la aplicación para mantener una identidad visual unificada:
 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.carnicerodebolsillo.app&hl=es_CL" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_ES.svg" height="60" alt="Descargar en Google Play" />
-  </a>
-</p>
-
----
-
-## Contacto
-
-- **Email:** [carnicerobolsillo@gmail.com](mailto:carnicerobolsillo@gmail.com)
-- **Buy Me a Coffee:** [buymeacoffee.com/carnicerobolsillo](https://buymeacoffee.com/carnicerobolsillo)
+| Color | Hex | Uso |
+|-------|-----|-----|
+| Beige cálido | `#F5E6D3` | Fondo principal |
+| Coral | `#E8774A` | Acentos, botones, badges |
+| Texto oscuro | `#1F2937` | Títulos y contenido |
+| Texto suave | `#6B7280` | Descripciones y etiquetas |
 
 ---
 

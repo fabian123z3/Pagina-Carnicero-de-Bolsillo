@@ -504,7 +504,7 @@ export default function CarniceroDeBolsillo() {
             <FeatureCard
               icon={MessageCircle}
               title="Chat IA Carnicero"
-              description="Pregunta lo que quieras sobre cortes, cocción y porciones. Impulsado por DeepSeek."
+              description="Pregunta sobre cortes, cocción y porciones. El asistente genera respuestas al momento."
             />
             <FeatureCard
               icon={Gamepad2}
@@ -513,8 +513,8 @@ export default function CarniceroDeBolsillo() {
             />
             <FeatureCard
               icon={Heart}
-              title="Favoritos y contacto"
-              description="Guarda tus cortes preferidos, comparte recetas y escríbenos cuando quieras."
+              title="Favoritos y respaldo en Drive"
+              description="Guarda tus cortes preferidos y, si conectas Google, sincroniza favoritos y progreso en tu Drive privado."
             />
           </div>
         </div>
@@ -885,6 +885,9 @@ export default function CarniceroDeBolsillo() {
               </a>
               <a href="mailto:carnicerobolsillo@gmail.com" className="hover:text-[#E8774A] transition-colors">
                 Contacto
+              </a>
+              <a href="/Politica-de-Privacidad/" className="hover:text-[#E8774A] transition-colors">
+                Privacidad
               </a>
             </div>
           </div>

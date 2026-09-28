@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#21172a" />
+    <title>Política de privacidad | Carnicero de Bolsillo</title>
+    <meta
+      name="description"
+      content="Cómo Carnicero de Bolsillo trata los datos de la cuenta Google, los respaldos de progreso y el chat con IA."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #241a2c;
+        background: #faf7f3;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; line-height: 1.65; }
+      header { padding: 2.5rem 1.25rem; color: #fff; background: #21172a; }
+      header div, main { width: min(100%, 850px); margin: 0 auto; }
+      header a { color: #ffd7bd; text-decoration: none; font-size: .95rem; }
+      h1 { margin: 1.5rem 0 .35rem; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.1; }
+      header p { margin: .5rem 0 0; color: #e8dce9; }
+      main { padding: 2rem 1.25rem 4rem; }
+      .aviso { border-left: 4px solid #c84e11; padding: .9rem 1rem; background: #fff0e7; border-radius: .5rem; }
+      section { margin-top: 2rem; }
+      h2 { margin-bottom: .5rem; color: #34223f; font-size: 1.35rem; }
+      a { color: #9e3a12; }
+      li + li { margin-top: .45rem; }
+      footer { padding: 1.5rem; text-align: center; color: #665d68; border-top: 1px solid #e9e1db; }
+      @media (max-width: 480px) { header { padding-top: 1.5rem; } main { padding-top: 1.25rem; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="https://pagina-carnicero-de-bolsillo.vercel.app/">← Carnicero de Bolsillo</a>
+        <h1>Política de privacidad</h1>
+        <p>Última actualización: 27 de septiembre de 2026</p>
+      </div>
+    </header>
+    <main>
+      <p>Esta política describe cómo Carnicero de Bolsillo trata la información cuando utilizas la aplicación. La app permite explorar cortes y recetas, usar juegos, iniciar sesión opcionalmente con Google para sincronizar el progreso y conversar con un asistente de cocina.</p>
+
+      <section>
+        <h2>Información de la cuenta Google</h2>
+        <p>Si eliges iniciar sesión, Google entrega a la app identificador de cuenta, nombre, correo electrónico y, cuando esté disponible, foto de perfil. Se usan para identificar la cuenta conectada y separar su progreso local. El inicio de sesión es opcional; puedes continuar como invitado.</p>
+      </section>
+
+      <section>
+        <h2>Respaldo opcional en Google Drive</h2>
+        <p>Si autorizas el permiso de Drive, la app guarda una copia de tus favoritos y progreso (experiencia, puntajes de juegos, logros y racha) en el espacio privado de datos de la aplicación de tu cuenta Google. La app solicita el alcance <code>drive.appdata</code>; este espacio está oculto en la interfaz normal de Drive y solo la app puede acceder a sus archivos mediante ese permiso. Google procesa estos datos de acuerdo con sus propias condiciones y política de privacidad.</p>
+        <p>La sincronización no es necesaria para usar la app. Cerrar sesión desconecta la cuenta en el dispositivo, pero no elimina por sí solo el archivo de respaldo remoto. La versión actual no ofrece una acción para borrar ese archivo desde la app. Para solicitar orientación sobre la eliminación del respaldo, escribe al correo de contacto; también puedes revocar el acceso de la app desde la configuración de seguridad de Google, aunque revocarlo no borra automáticamente los datos ya guardados.</p>
+      </section>
+
+      <section>
+        <h2>Chat con el asistente</h2>
+        <p>Cuando envías una pregunta, la app la transmite por HTTPS al servidor Ollama administrado por el responsable del proyecto para generar una respuesta. Según la práctica confirmada por el responsable, los mensajes se procesan en el momento y no se guardan en el servidor. La conversación se conserva solo en la memoria de la pantalla durante esa sesión y no se sincroniza con Drive. Evita incluir contraseñas u otra información sensible en tus preguntas.</p>
+      </section>
+
+      <section>
+        <h2>Almacenamiento en el dispositivo y conservación</h2>
+        <p>Favoritos y progreso se guardan localmente en el dispositivo para que las funciones de la app estén disponibles. El perfil Google conectado se almacena en el almacenamiento seguro del dispositivo; el progreso local usa almacenamiento de la app. Estos datos locales permanecen hasta que los elimines desde la app o borres los datos/desinstales la aplicación. El respaldo opcional en Drive permanece en tu cuenta hasta que se elimine por separado.</p>
+      </section>
+
+      <section>
+        <h2>Anuncios y servicios de terceros</h2>
+        <p>La ficha publicada en Google Play identifica la app como una aplicación con anuncios. En las versiones y pantallas donde el SDK de Google Mobile Ads solicita anuncios, puede recopilar y compartir automáticamente la dirección IP (que puede estimar la ubicación general), interacciones con el producto, diagnósticos e identificadores del dispositivo o de la cuenta para publicidad, análisis y prevención de fraude. La versión de desarrollo consultada mantiene desactivada la solicitud de anuncios; esto no cambia las prácticas de las versiones ya distribuidas. Google describe las prácticas del SDK en su <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure?hl=es-419">divulgación de datos de Google Mobile Ads</a>.</p>
+        <p>La app también carga imágenes desde los servidores que las alojan. Al solicitar esos recursos, el proveedor de alojamiento puede recibir datos técnicos de la conexión, como la dirección IP, de acuerdo con sus propias prácticas de privacidad.</p>
+        <p>La app también se comunica con Google para inicio de sesión y respaldo si eliges esas funciones. Las solicitudes del chat llegan al servidor Ollama del proyecto. No se utilizan estos datos para crear una cuenta propia en un servidor del proyecto.</p>
+      </section>
+
+      <section>
+        <h2>Seguridad y control</h2>
+        <p>Las comunicaciones con Google y el servidor del chat usan HTTPS. El perfil de cuenta se guarda en el almacenamiento seguro del dispositivo; el progreso local se guarda en el almacenamiento de la app. Puedes evitar la sincronización no conectando Google, revocar el acceso desde la configuración de seguridad de tu cuenta Google y borrar los datos locales limpiando los datos o desinstalando la app. Revocar el acceso no elimina el respaldo que ya esté almacenado en Drive.</p>
+      </section>
+
+      <section>
+        <h2>Privacidad de menores y cambios</h2>
+        <p>La app no solicita deliberadamente datos personales de menores. Si crees que un menor nos entregó información personal, contacta al responsable para revisar el caso. Esta política puede actualizarse cuando cambien la app o sus servicios; se publicará aquí la fecha de la versión vigente.</p>
+      </section>
+
+      <section>
+        <h2>Contacto</h2>
+        <p>Para consultas sobre privacidad, escribe a <a href="mailto:carnicerobolsillo@gmail.com">carnicerobolsillo@gmail.com</a>.</p>
+      </section>
+    </main>
+    <footer>Carnicero de Bolsillo</footer>
+  </body>
+</html>

@@ -21,7 +21,7 @@ import {
 import { DemoInteractivaAplicacion } from '@/components/DemoInteractivaAplicacion'
 
 const urlGooglePlay = 'https://play.google.com/store/apps/details?id=com.carnicerodebolsillo.app&hl=es_CL'
-const urlAplicacionWeb = 'https://carnicero-de-bolsillo-app.vercel.app'
+const urlAplicacionWeb = 'https://carnicero-de-bolsillo-app-kohl.vercel.app'
 
 function Brand({ inverse = false }: { inverse?: boolean }) {
   return (
